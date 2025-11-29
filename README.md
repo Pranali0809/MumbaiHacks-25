@@ -1,6 +1,8 @@
 # **Vaidya AI — Agentic Healthcare Assistant**  
 ### *Built for MumbaiHacks25*
 
+Project Demo: [Watch our Demo recording]([https://1drv.ms/v/c/0bc632da0eda4e46/IQB6O7-JVsurRIw4BWVJgp35AXUajwA08rbWJQze6D9nILM?e=2R9UAc])
+
 Vaidya AI is an AI-powered, agentic healthcare application designed to streamline the doctor–patient journey. By automating pre-consultation questioning, generating clinical summaries, and assisting doctors with decision support, Vaidya AI reduces administrative workload and enhances patient experience.
 
 Below is a polished, professional, and compelling **README.md** for your multi-agent medical diagnostics project.
@@ -229,7 +231,7 @@ npm run dev
 
 ## 🤝 **Team**
 
-**Rootkit Rangers**
+**Vaidya.ai by Mavericks**
 Passionate engineers building the future of medical AI.
 
 ---
@@ -243,3 +245,4 @@ If you want, I can also generate:
 Just tell me!
 
 ---
+
