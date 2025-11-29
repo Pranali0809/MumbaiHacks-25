@@ -24,7 +24,7 @@ from agent_assessment import router as agent_assessment_router
 from appointments import router as appointments_router
 mock_appointments_db = [
     {
-        "appointment_id": "visit_1",
+        "appointment_id": "apt_001",
         "doctor_id": "doctor_1",
         "patient_id": "patient_1",
         "date": str(date.today()),
@@ -93,13 +93,13 @@ def seed_patient():
     patient_data={
         "patient_id": "patient_1",
         "personal_info": {
-            "name": "Sarah Johnson",
+            "name": "Sandnya Joshi",
             "age": 32,
             "gender": "Female",
             "blood_type": "O+",
-            "phone": "+1 (555) 123-4567",
-            "email": "sarah.johnson@email.com",
-            "address": "123 Maple St, Boston, MA",
+            "phone": "+91 90123-24567",
+            "email": "sandnya.joshi@email.com",
+            "address": "123 Laxmi St, Mumbai, Maharashtra",
             "next_appointment_id": "apt_004",
             "active_prescription": "3 active"
         },
@@ -125,7 +125,7 @@ def seed_patient():
                 {
                     "name": "Appendectomy",
                     "date": "2019-02-11",
-                    "hospital": "Boston General Hospital",
+                    "hospital": "Mumbai General Hospital",
                     "doctor_id": "doctor_4"
                 }
             ],
@@ -300,8 +300,8 @@ def seed_doctor():
     doctor_id = "doctor_1"   # or any ID you want
     doctor_data={
         "doctor_id": "doctor_1",
-        "name": "Dr. Michael Chen",
-        "certified_board": "American Board of Internal Medicine",
+        "name": "Dr. Nikhil Sharma",
+        "certified_board": "Indian Board of Internal Medicine",
         "license_id": "MD-45892",
         "status": "active"
     }
